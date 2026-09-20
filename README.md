@@ -10,9 +10,9 @@ Author: **Aryam Khaled**
 
 Date: **September 2026**
 
-Repository: \[Your GitHub Link]
+Repository: https://github.com/aryamkhaled/ecommerce-sales-analysis
 
-\---
+---
 
 ## Libraries Used
 
@@ -41,7 +41,7 @@ plt.rcParams\['figure.figsize'] = (12, 6)
 
 %matplotlib inline
 
-\---
+---
 
 ## 📊 1. Data Loading \& Initial Inspection
 
@@ -49,7 +49,7 @@ plt.rcParams\['figure.figsize'] = (12, 6)
 
 python
 
-\# Load the Excel file
+# Load the Excel file
 
 df_Ret = pd.read_excel('Online_Retail.xlsx')
 
@@ -57,13 +57,13 @@ df_Ret = pd.read_excel('Online_Retail.xlsx')
 
 python
 
-\# Display first 5 rows
+# Display first 5 rows
 
 df_Ret.head()
 
 **_Output:_** Shows first 5 transactions with 8 columns.
 
-\---
+---
 
 ## 🔍 2. Data Understanding
 
@@ -71,7 +71,7 @@ df_Ret.head()
 
 python
 
-\# Check dataset size
+# Check dataset size
 
 df_Ret.shape
 
@@ -94,7 +94,7 @@ Column Name Description Data Type Example
 
 python
 
-\# Display data types and non-null counts
+# Display data types and non-null counts
 
 df_Ret.info()
 
@@ -112,7 +112,7 @@ df_Ret.info()
 
 python
 
-\# Check for missing values in each column
+# Check for missing values in each column
 
 df_Ret.isnull().sum()
 
@@ -126,7 +126,7 @@ df_Ret.isnull().sum()
 
 python
 
-\# Count unique values in each column
+# Count unique values in each column
 
 df_Ret.nunique()
 
@@ -144,7 +144,7 @@ df_Ret.nunique()
 
 python
 
-\# Summary statistics for numerical columns
+# Summary statistics for numerical columns
 
 df_Ret.describe()
 
@@ -158,7 +158,7 @@ df_Ret.describe()
 
 python
 
-\# Summary statistics for text columns
+# Summary statistics for text columns
 
 df_Ret.describe(include=\['object','str'])
 
@@ -172,7 +172,7 @@ df_Ret.describe(include=\['object','str'])
 
 python
 
-\# Random sample of 10 rows to check data diversity
+# Random sample of 10 rows to check data diversity
 
 df_Ret.sample(10)
 
@@ -184,19 +184,19 @@ All initial data exploration and quality checks have been completed.
 
 The dataset is now well-understood and ready for the cleaning phase.
 
-\---
+---
 
 ## 🧹 3. Data Cleaning
 
 #### &#x20;Cleaning Steps Performed
 
-##### 1\. Removed rows with missing descriptions
+##### 1. Removed rows with missing descriptions
 
 &#x20; - Rows dropped: **1,454**
 
 &#x20; - **_Reason_**: Product information is essential for analysis
 
-##### 2\. Removed returns, invalid prices, cancelled invoices, and duplicates
+##### 2. Removed returns, invalid prices, cancelled invoices, and duplicates
 
 &#x20; - Total rows dropped: **15,577**
 
@@ -238,7 +238,7 @@ The dataset is now well-understood and ready for the cleaning phase.
 
 &#x20; - Revenue column added for deeper analysis
 
-\---
+---
 
 ## ⚙️ 4. Feature Engineering
 
@@ -316,7 +316,7 @@ The dataset is now well-understood and ready for the cleaning phase.
 
 &#x20; - Ranges from **_very low values_** (_e.g._, **£19.67**) **_to extremely high values_** (_e.g._, **£77,183.60**).
 
-\---
+---
 
 ## 📈 5. Analysis \& Visualization
 
@@ -523,7 +523,7 @@ _UK dominates with ~87% of total revenue._
 
 _Loyal Customers may need a return policy review._
 
-\---
+---
 
 ## 💡 6. Business Recommendations
 
@@ -610,7 +610,7 @@ Based on the analysis, here are actionable recommendations:
    - Store operates 6 days a week.
    - **Action:** Use Saturdays for logistics and restocking.
 
-\---
+---
 
 ## 📝 7. Executive Summary
 
@@ -718,14 +718,12 @@ By addressing these issues and implementing the recommendations, the store can:
 - **Increase revenue** by expanding high-value markets
 - **Sustain growth** through a diversified customer and geographic base.
 
-\---
+---
 
 ## 🔗 8. References
 
-## 8. References
-
 - **Dataset:** [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
-- **Repository:** [Your GitHub Link]
+- **Repository:** https://github.com/aryamkhaled/ecommerce-sales-analysis
 - **Tools:** Python, Pandas, NumPy, Matplotlib, Seaborn
 - **Author:** Aryam Khaled
 - **Date:** September 2026
