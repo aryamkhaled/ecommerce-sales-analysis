@@ -43,7 +43,7 @@ plt.rcParams\['figure.figsize'] = (12, 6)
 
 ---
 
-## 📊 1. Data Loading \& Initial Inspection
+## 1. Data Loading \& Initial Inspection
 
 ### 1.1 Load Dataset
 
@@ -65,7 +65,7 @@ df_Ret.head()
 
 ---
 
-## 🔍 2. Data Understanding
+## 2. Data Understanding
 
 ### 2.1 Dataset Structure
 
@@ -186,7 +186,7 @@ The dataset is now well-understood and ready for the cleaning phase.
 
 ---
 
-## 🧹 3. Data Cleaning
+## 3. Data Cleaning
 
 #### &#x20;Cleaning Steps Performed
 
@@ -240,7 +240,7 @@ The dataset is now well-understood and ready for the cleaning phase.
 
 ---
 
-## ⚙️ 4. Feature Engineering
+## 4. Feature Engineering
 
 #### &#x20;4.1 Date-Based Features
 
@@ -318,7 +318,7 @@ The dataset is now well-understood and ready for the cleaning phase.
 
 ---
 
-## 📈 5. Analysis \& Visualization
+## 5. Analysis \& Visualization
 
 ### 5.1 Sales Analysis
 
@@ -525,7 +525,7 @@ _Loyal Customers may need a return policy review._
 
 ---
 
-## 💡 6. Business Recommendations
+## 6. Business Recommendations
 
 Based on the analysis, here are actionable recommendations:
 
@@ -612,7 +612,7 @@ Based on the analysis, here are actionable recommendations:
 
 ---
 
-## 📝 7. Executive Summary
+## 7. Executive Summary
 
 ### 7.1 Project Overview
 
@@ -720,7 +720,7 @@ By addressing these issues and implementing the recommendations, the store can:
 
 ---
 
-## 🔗 8. References
+## 8. References
 
 - **Dataset:** [UCI Online Retail Dataset](https://archive.ics.uci.edu/ml/datasets/online+retail)
 - **Repository:** https://github.com/aryamkhaled/ecommerce-sales-analysis
